@@ -35,7 +35,7 @@ function Activities(){
 
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div
@@ -46,21 +46,41 @@ function Activities(){
                             maxWidth:"1000px"
                         }}
                         >
-                            <Divider style={{marginTop: "5vh", marginBottom: "5vh"}} orientation="left">Program</Divider>
+                            <Divider style={{marginTop: "5vh", marginBottom: "5vh"}} orientation="left">Activities / Night Events</Divider>
 
                             <Timeline
+                                style={{marginLeft:"-260px", width: '98vw'}}
+                                mode={"left"}
                                 items={[
                                 {
-                                    children: 'Create a services site 2015-09-01',
+                                    label: 'Day 1',
+                                    children: (
+                                        <div style={{marginLeft:"-75px"}}>
+                                          <small>23 October 2024 | 1830hrs<br/></small>
+                                          <small>Dinner Opening Night<br/></small>
+                                          <small>Boma Dress - Smart Casual<br/></small>
+                                        </div>
+                                      ),
                                 },
                                 {
-                                    children: 'Solve initial network problems 2015-09-01',
+                                    label: 'Day 2',
+                                    children: (
+                                        <div style={{marginLeft:"-75px"}}>
+                                          <small>24 October 2024<br/></small>
+                                          <small>NATFOODS Presisdent's Dinner - A'ZAMBEZI<br/></small>
+                                          <small>Theme: Neo Retro 80s/90s classics<br/></small>
+                                        </div>
+                                      ),
                                 },
                                 {
-                                    children: 'Technical testing 2015-09-01',
-                                },
-                                {
-                                    children: 'Network problems being solved 2015-09-01',
+                                    label: 'Day 3',
+                                    children: (
+                                        <div style={{marginLeft:"-75px"}}>
+                                          <small>25 October 2024<br/></small>
+                                          <small>Closing game night dinner | Bush Dinner<br/></small>
+                                          <small>Smart Casual</small>
+                                        </div>
+                                      ),
                                 },
                                 ]}
                             />

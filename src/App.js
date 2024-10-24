@@ -8,6 +8,7 @@ import {
   Routes,
   Route,
   useLocation,
+  HashRouter,
 } from "react-router-dom";
 import Program from './components/Program';
 import Events from './components/Events';
@@ -49,20 +50,24 @@ function App() {
       });
   };
 
-  const location = useLocation();
+  //const location = useLocation();
   
   return (
     <div className="App">
       <Install installable={installable} handleInstallClick={handleInstallClick}/>
 
-      <Routes location={location} key={location.pathname}>
+              <HashRouter basename="/">
+               <Routes>
                   <Route path="/" element={<Header />} />
                   <Route path="/sponsors" element={<Sponsors />} />
                   <Route path="/speakers" element={<Speakers />} />
                   <Route path="/program" element={<Program />} />
                   <Route path="/activities" element={<Activities />} />
                   <Route path="/events" element={<Events />} />
-              </Routes>
+                  <Route path="*" element={<>not found</>} />
+                  </Routes>
+              </HashRouter>
+              
     </div>
   );
 }

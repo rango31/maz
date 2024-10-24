@@ -35,7 +35,7 @@ function Program(){
 
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div

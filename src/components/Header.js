@@ -46,13 +46,13 @@ function Header(){
                             style={{
                                 borderRadius: "20px",
                                 marginTop: "5vh",
-                                width:"90vw",
+                                width:"80vw",
                                 maxWidth:"1000px"
                             
 
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div
@@ -69,8 +69,9 @@ function Header(){
                                 <Col className="gutter-row" span={8}>
                                     <Link to="/events">
                                     <Card
+                                        size='small'
                                         hoverable
-                                        cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/Events.png" />}
+                                        cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/Events.png" />}
                                     >
                                         <Meta title="Events" />
                                     </Card>
@@ -80,8 +81,9 @@ function Header(){
                                 <Col className="gutter-row" span={8}>
                                 <Link to="/speakers">
                                     <Card
+                                        size='small'
                                         hoverable
-                                        cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/Speaker.png" />}
+                                        cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/Speaker.png" />}
                                     >
                                         <Meta title="Speakers" />
                                     </Card>
@@ -91,8 +93,9 @@ function Header(){
                                 <Col className="gutter-row" span={8}>
                                 <Link to="/activities">
                                     <Card
+                                        size='small'
                                         hoverable
-                                        cover={<img style={{width:'12vw',marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/Activities.png" />}
+                                        cover={<img style={{width:'12vw',marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/Activities.png" />}
                                     >
                                         <Meta title="Activities" />
                                     </Card>
@@ -107,7 +110,7 @@ function Header(){
                             <Link to="/program">
                                 <Card
                                     hoverable
-                                    cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/Program.png" />}
+                                    cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/Program.png" />}
                                 >
                                     <Meta title="Program" />
                                 </Card>
@@ -118,7 +121,7 @@ function Header(){
                             <Link to="/sponsors">
                                 <Card
                                     hoverable
-                                    cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/sponsors.png" />}
+                                    cover={<img style={{width:'12vw', marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/Sponsors.png" />}
                                 >
                                     <Meta title="Sponsors" />
                                 </Card>
@@ -130,7 +133,7 @@ function Header(){
                                 <Card
                                     onClick={()=>{setShared(!shared)}}
                                     hoverable
-                                    cover={<img style={{width:'12vw',marginTop:"3vh", maxWidth: "75px"}} alt="example" src="/images/qr.jpg" />}
+                                    cover={<img style={{width:'12vw',marginTop:"3vh", maxWidth: "75px"}} alt="example" src="images/qr.jpg" />}
                                 >
                                     <Meta title="Share" />
                                 </Card>
@@ -147,8 +150,8 @@ function Header(){
                                     errorLevel="H"
                                     size={300}
                                     iconSize={300 / 4}
-                                    value="https://ant.design/"
-                                    icon="/logo192.png"
+                                    value="https://rango31.github.io/maz/#/"
+                                    icon="logo192.png"
                                 />
                                 </>
 
@@ -162,27 +165,23 @@ function Header(){
                                 infinite={true}
                                 autoPlay={true}
                                 >
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/1.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/2.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/3.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/4.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/5.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/6.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/7.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/8.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/9.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/10.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/11.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/12.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/13.png" /></div>
-                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="/images/14.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/1.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/2.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/3.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/4.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/5.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/6.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/7.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/8.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/9.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/10.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/11.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/12.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/13.png" /></div>
+                                <div><img style={{width:'12vw', marginTop:"3vh", maxWidth: "150px"}} alt="example" src="images/14.png" /></div>
                             </Carousel>;
                         </div>
-                    
                     </center>
-
-                    
-        
         </div>
        
        </center>

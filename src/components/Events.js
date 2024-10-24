@@ -35,7 +35,7 @@ function Events(){
 
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div
@@ -46,7 +46,7 @@ function Events(){
                             maxWidth:"1000px"
                         }}
                         >
-                            <Divider style={{marginTop: "5vh", marginBottom: "5vh"}} orientation="left">Program</Divider>
+                            <Divider style={{marginTop: "5vh", marginBottom: "5vh"}} orientation="left">Events</Divider>
 
                             <Timeline
                                 items={[

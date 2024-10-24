@@ -35,7 +35,7 @@ function Speakers(){
 
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div
@@ -91,7 +91,7 @@ function Speakers(){
                                 renderItem={(item, index) => (
                                 <List.Item>
                                     <List.Item.Meta
-                                        avatar={<Avatar style={{width: "100%", height: "100%"}} src={`/images/speakers/${item.image}.jpeg`} />}
+                                        avatar={<Avatar style={{width: "100%", height: "100%"}} src={`images/speakers/${item.image}.jpeg`} />}
                                     />
                                 </List.Item>
                                 )}

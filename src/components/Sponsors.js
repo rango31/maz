@@ -33,7 +33,7 @@ function Sponsors(){
                                 maxWidth:"1000px"
                             }}
                             maxWidth={1000}
-                            src="/images/AppBanner.jpg"
+                            src="images/AppBanner.jpg"
                         />
 
                         <div
@@ -95,7 +95,7 @@ function Sponsors(){
                                 renderItem={(item, index) => (
                                 <List.Item>
                                     <List.Item.Meta
-                                        avatar={<Avatar style={{width: "100%", height: "50%"}} src={`/images/${item.image}.png`} />}
+                                        avatar={<Avatar style={{width: "100%", height: "50%"}} src={`images/${item.image}.png`} />}
                                     />
                                 </List.Item>
                                 )}
