@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maz/static/css/main.5d195b7d.chunk.css",
-    "main.js": "/maz/static/js/main.2ff56781.chunk.js",
-    "main.js.map": "/maz/static/js/main.2ff56781.chunk.js.map",
+    "main.js": "/maz/static/js/main.649ef9ed.chunk.js",
+    "main.js.map": "/maz/static/js/main.649ef9ed.chunk.js.map",
     "runtime-main.js": "/maz/static/js/runtime-main.4741b774.js",
     "runtime-main.js.map": "/maz/static/js/runtime-main.4741b774.js.map",
     "static/css/2.a3a3bd44.chunk.css": "/maz/static/css/2.a3a3bd44.chunk.css",
-    "static/js/2.bdd83854.chunk.js": "/maz/static/js/2.bdd83854.chunk.js",
-    "static/js/2.bdd83854.chunk.js.map": "/maz/static/js/2.bdd83854.chunk.js.map",
+    "static/js/2.edde0898.chunk.js": "/maz/static/js/2.edde0898.chunk.js",
+    "static/js/2.edde0898.chunk.js.map": "/maz/static/js/2.edde0898.chunk.js.map",
     "static/js/3.bb527deb.chunk.js": "/maz/static/js/3.bb527deb.chunk.js",
     "static/js/3.bb527deb.chunk.js.map": "/maz/static/js/3.bb527deb.chunk.js.map",
     "index.html": "/maz/index.html",
@@ -15,14 +15,14 @@
     "service-worker.js.map": "/maz/service-worker.js.map",
     "static/css/2.a3a3bd44.chunk.css.map": "/maz/static/css/2.a3a3bd44.chunk.css.map",
     "static/css/main.5d195b7d.chunk.css.map": "/maz/static/css/main.5d195b7d.chunk.css.map",
-    "static/js/2.bdd83854.chunk.js.LICENSE.txt": "/maz/static/js/2.bdd83854.chunk.js.LICENSE.txt",
+    "static/js/2.edde0898.chunk.js.LICENSE.txt": "/maz/static/js/2.edde0898.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/maz/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.4741b774.js",
     "static/css/2.a3a3bd44.chunk.css",
-    "static/js/2.bdd83854.chunk.js",
+    "static/js/2.edde0898.chunk.js",
     "static/css/main.5d195b7d.chunk.css",
-    "static/js/main.2ff56781.chunk.js"
+    "static/js/main.649ef9ed.chunk.js"
   ]
 }
